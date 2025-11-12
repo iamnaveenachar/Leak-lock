@@ -1,0 +1,13 @@
+project_id = "gatjokqfnstxfmgxmjsf"
+
+[functions.subscription-assistant]
+verify_jwt = false
+
+[functions.trigger-n8n-webhook]
+verify_jwt = true
+
+[functions.sync-subscriptions]
+verify_jwt = true
+
+[functions.get-subscriptions]
+verify_jwt = true
